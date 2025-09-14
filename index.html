@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنفوغراف: تحليل العدوان الإسرائيلي على قطر</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f0f2f5;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 2.5rem;
+            color: #1a202c;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: #ef4444;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+            color: #ef4444;
+        }
+        /* --- NEW TIMELINE STYLES --- */
+        .timeline-item {
+            position: relative;
+            padding: 1.5rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            border-right: 4px solid #e2e8f0; /* Default border color */
+        }
+
+        .timeline-item-highlight {
+            border-color: #ef4444;
+            background-color: #fef2f2;
+        }
+
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <!-- Header -->
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-red-600">العدوان الإسرائيلي على قطر</h1>
+            <p class="text-lg md:text-xl text-gray-600 mt-4">تحليل بصري للدوافع، الخلفيات، والتداعيات</p>
+        </header>
+
+        <!-- Section 1: Attack Summary -->
+        <section id="summary" class="mb-20">
+            <h2 class="section-title">ملخص العدوان على الدوحة</h2>
+            <div class="card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
+                <div class="flex flex-col items-center">
+                    <svg class="icon mb-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0h18M-4.5 12h22.5" /></svg>
+                    <h3 class="font-bold text-lg">التاريخ</h3>
+                    <p>الثلاثاء، 9 سبتمبر 2025</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <svg class="icon mb-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+                    <h3 class="font-bold text-lg">الموقع</h3>
+                    <p>الدوحة، دولة قطر</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <svg class="icon mb-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5" /></svg>
+                    <h3 class="font-bold text-lg">الهدف</h3>
+                    <p>وفد حماس التفاوضي</p>
+                </div>
+                <div class="flex flex-col items-center">
+                     <svg class="icon mb-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" /></svg>
+                    <h3 class="font-bold text-lg">القوة المنفذة</h3>
+                    <p>15 طائرة مقاتلة إسرائيلية</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <svg class="icon mb-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.63 2.25c-2.59 1.9-3.97 4.88-3.97 8.25a6 6 0 01-5.84-7.38v4.825A14.98 14.98 0 009.63 21.75c2.59-1.9 3.97-4.88 3.97-8.25a6 6 0 015.84 7.38z" /></svg>
+                    <h3 class="font-bold text-lg">اسم العملية</h3>
+                    <p>"قمة النار"</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <svg class="icon mb-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" /></svg>
+                    <h3 class="font-bold text-lg">الخسائر</h3>
+                    <p>شهداء (بينهم عنصر أمن قطري) ومصابون مدنيون</p>
+                </div>
+            </div>
+            <div class="mt-8 bg-red-100 border-r-4 border-red-500 text-red-700 p-4 rounded-lg shadow-md" role="alert">
+              <p class="font-bold">نقطة محورية</p>
+              <p>تم استهداف الوفد التفاوضي أثناء مناقشته لمقترح وقف إطلاق النار الذي طرحه الرئيس الأمريكي ووصفه بأنه "الإنذار الأخير".</p>
+            </div>
+        </section>
+
+        <!-- Section 2: Timeline - NEW DESIGN -->
+        <section id="timeline" class="mb-20">
+            <h2 class="section-title">الخط الزمني لسياسة الاغتيالات</h2>
+            <div class="space-y-6">
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <h3 class="font-bold text-lg text-gray-800">نوفمبر 2023</h3>
+                    <p class="text-gray-600">نتنياهو يوجه الموساد باستهداف قادة حماس "أينما كانوا".</p>
+                </div>
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <h3 class="font-bold text-lg text-gray-800">ديسمبر 2023</h3>
+                    <p class="text-gray-600">رئيس الشاباك يتعهد بملاحقة قادة حماس "في كل مكان".</p>
+                </div>
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <h3 class="font-bold text-lg text-gray-800">مطلع عام 2024</h3>
+                    <p class="text-gray-600">اغتيال صالح العاروري في بيروت.</p>
+                </div>
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <h3 class="font-bold text-lg text-gray-800">يوليو 2024</h3>
+                    <p class="text-gray-600">اغتيال إسماعيل هنية في طهران.</p>
+                </div>
+                 <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <h3 class="font-bold text-lg text-gray-800">أكتوبر 2024</h3>
+                    <p class="text-gray-600">اغتيال يحيى السنوار في غزة.</p>
+                </div>
+                <!-- Highlighted Timeline Item -->
+                <div class="timeline-item timeline-item-highlight">
+                    <h3 class="font-bold text-lg text-red-700">سبتمبر 2025</h3>
+                    <p class="text-red-600">محاولة اغتيال الوفد التفاوضي في الدوحة.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Motives -->
+        <section id="motives" class="mb-20">
+            <h2 class="section-title">الدوافع الأربعة الرئيسية للعدوان</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="card text-center">
+                    <div class="flex justify-center mb-4">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" /></svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">1. اغتيال القادة</h3>
+                    <p>إنهاء الحرب عبر تصفية القيادة السياسية والعسكرية لحماس.</p>
+                </div>
+                <div class="card text-center">
+                    <div class="flex justify-center mb-4">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">2. إفشال الوساطة</h3>
+                    <p>استهداف الدولة الوسيطة لقتل أي فرصة للتوصل إلى اتفاق.</p>
+                </div>
+                <div class="card text-center">
+                    <div class="flex justify-center mb-4">
+                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.5-10.5h-7a.5.5 0 00-.5.5v12a.5.5 0 00.5.5h7a.5.5 0 00.5-.5v-12a.5.5 0 00-.5-.5z" /></svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">3. إعادة تشكيل غزة</h3>
+                    <p>استكمال مخطط تدمير وتهجير سكان غزة وإعادة احتلالها.</p>
+                </div>
+                <div class="card text-center">
+                    <div class="flex justify-center mb-4">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 01-4.5-4.5v-4.5a4.5 4.5 0 014.5-4.5h7.5a4.5 4.5 0 014.5 4.5v4.5a4.5 4.5 0 01-4.5 4.5h-1.75a2.25 2.25 0 00-2.25 2.25v2.25c0 1.242.64 2.342 1.62 2.946l.542.325a2.25 2.25 0 01.932 3.714l-.623.623a2.25 2.25 0 01-3.181 0l-.623-.623a2.25 2.25 0 01.932-3.714l.542-.325A2.25 2.25 0 0010.34 18v-2.16z" /></svg>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">4. رسالة ردع</h3>
+                    <p>إظهار الهيمنة العسكرية الإسرائيلية والقدرة على الوصول لأي هدف.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Consequences -->
+        <section id="consequences" class="mb-20">
+            <h2 class="section-title">التداعيات والنتائج المحتملة</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="card flex items-start space-x-4 space-x-reverse">
+                    <div class="flex-shrink-0"><svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18.375a9.75 9.75 0 009.654-7.854c.224-1.635-1.127-3.21-2.91-3.21h-2.167c-.672 0-1.32.24-1.83.655m-1.387 1.387c-.38.415-.934.655-1.533.655H8.25c-1.782 0-3.134-1.575-2.91-3.21a9.75 9.75 0 009.654 7.854z" /></svg></div>
+                    <div class="min-w-0">
+                        <h3 class="font-bold text-xl mb-1">تقويض الوساطة</h3>
+                        <p>تعريض مستقبل المفاوضات للخطر ومنح إسرائيل مبرراً لمواصلة الحرب.</p>
+                    </div>
+                </div>
+                <div class="card flex items-start space-x-4 space-x-reverse">
+                    <div class="flex-shrink-0"><svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" /><path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1.001A3.75 3.75 0 0012 18z" /></svg></div>
+                    <div class="min-w-0">
+                        <h3 class="font-bold text-xl mb-1">خطر التصعيد الإقليمي</h3>
+                        <p>انتهاك سيادة دولة وسيطة يزيد من فرص توسع الصراع لدول أخرى.</p>
+                    </div>
+                </div>
+                <div class="card flex items-start space-x-4 space-x-reverse">
+                    <div class="flex-shrink-0"><svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" /></svg></div>
+                    <div class="min-w-0">
+                        <h3 class="font-bold text-xl mb-1">استمرار التهديدات</h3>
+                        <p>تصريحات إسرائيلية بأن "يد إسرائيل الطولى" ستصل لأعدائها في أي مكان.</p>
+                    </div>
+                </div>
+                <div class="card flex items-start space-x-4 space-x-reverse">
+                     <div class="flex-shrink-0"><svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.056 3 11.5c0 4.556 4.03 8.25 9 8.25z" /></svg></div>
+                    <div class="min-w-0">
+                        <h3 class="font-bold text-xl mb-1">إدانات دولية واسعة</h3>
+                        <p>اعتبار الهجوم انتهاكًا صارخًا للقانون الدولي والأعراف الدبلوماسية.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center mt-16 py-6 border-t border-gray-300">
+            <p class="text-gray-600">هذا التحليل البصري يستند إلى تقدير موقف حول الأحداث في 9 سبتمبر 2025.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
